@@ -144,6 +144,12 @@ export const asyncRouterMap = [
         meta: { title: '行政区域', noCache: true }
       },
       {
+        path: 'mallinfo',
+        component: () => import('@/views/mall/mallinfo'),
+        name: 'mallinfo',
+        meta: { title: '对接商场', noCache: true }
+      },
+      {
         path: 'brand',
         component: () => import('@/views/mall/brand'),
         name: 'brand',
